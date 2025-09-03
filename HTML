@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kavitha's Floral Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Playfair+Display:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">Kavitha</div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#kavitha">kavitha</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floral-element flower-1">
+            <i class="fas fa-leaf"></i>
+        </div>
+        <div class="floral-element flower-2">
+            <i class="fas fa-seedling"></i>
+        </div>
+        <div class="floral-element flower-3">
+            <i class="fab fa-pagelines"></i>
+        </div>
+        <div class="floral-element flower-4">
+            <i class="fas fa-spa"></i>
+        </div>
+        
+        <div class="hero-content">
+            <h1 class="hero-title">Kavitha's Floral Portfolio</h1>
+            <p class="hero-subtitle">Web Developer & Creative Designer</p>
+            <button class="hero-btn">View My Work</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Hello! I'm Kavitha, a passionate web developer with a love for creating beautiful, functional websites. My journey in web development started 3 years ago, and I've been honing my skills ever since.</p>
+                    <p>I specialize in front-end development with a focus on creating user-friendly, responsive designs that leave a lasting impression. When I'm not coding, you can find me exploring nature, practicing photography, or tending to my garden.</p>
+                    <p>My goal is to blend technical expertise with creative design to build digital experiences that are both visually stunning and highly functional.</p>
+                </div>
+                <div class="about-img">
+                    <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-1.2.1&auto=format&fit=crop&w=400&h=400&q=80" alt="Kavitha">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section" style="background: rgba(255, 215, 0, 0.1);">
+        <div class="container">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-content">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                    <p>Semantic markup, accessibility, and modern HTML features.</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS3</h3>
+                    <p>Responsive design, flexbox, grid, and CSS animations.</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interactive web elements, DOM manipulation, and ES6 features.</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-react"></i>
+                    <h3>React</h3>
+                    <p>Component-based architecture and state management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-content">
+                <div class="project">
+                    <div class="project-img">Floral E-Commerce</div>
+                    <div class="project-info">
+                        <h3>Floral E-Commerce Website</h3>
+                        <p>An online flower shop with product filtering, cart functionality, and payment processing.</p>
+                        <a href="#" class="project-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">Nature Blog</div>
+                    <div class="project-info">
+                        <h3>Nature Photography Blog</h3>
+                        <p>A responsive blog showcasing nature photography with category filtering and search.</p>
+                        <a href="#" class="project-btn">View Project</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">Garden Planner</div>
+                    <div class="project-info">
+                        <h3>Garden Planning App</h3>
+                        <p>An interactive app for planning garden layouts with plant information and seasonal guides.</p>
+                        <a href="#" class="project-btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" style="background: rgba(255, 215, 0, 0.1);">
+        <div class="container">
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" class="form-control" required></textarea>
+                    </div>
+                    <button type="submit" class="hero-btn">Send Message</button>
+                </form>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>kavitha@example.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+123 456 7890</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Chennai, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <p>&copy; 2023 Kavitha. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
